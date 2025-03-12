@@ -11,6 +11,7 @@ public class dynamicBindingDemo extends DynamicClass{
     }
 
     public static void main(String[] args) {
-
+        DynamicClass dynamicClass = new dynamicBindingDemo();
+        dynamicClass.dinterestRate(9.90);
     }
 }
